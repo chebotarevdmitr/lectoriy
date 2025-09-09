@@ -1,0 +1,16 @@
+gitint          4 байта    unsigned - беззнаковый   int 64_t -c фиксированной шириной (32,16,8)
+long                                             uint 64_t - беззнаковая версия
+long long    8 байт
+short        2 байта
+char         1 байт signed char - char знаковый
+bool   логика конвертируется в int истина = 1 ложь = 0  в обратную сторону не нулевое истина 0 счирается ложью
+size.t - тип для индексции                         
+std::byte что и однобайтовый  int при складывании
+
+floating point types типы с плавающей точкой 
+float
+double
+long double 
+
+std::string s = "abc"  [size.t index]
+operator [](size.t) .at (size.t)  s.t(1)='x';
